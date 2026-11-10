@@ -1,0 +1,4 @@
+# Yahoo Finance prices and the forecasts made from them: rebuilt by fetch.py, forecast.py and intraday.py.
+data/*.csv
+data/forecasts/
+__pycache__/

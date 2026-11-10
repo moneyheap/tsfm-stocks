@@ -1,0 +1,10 @@
+# fetch.py, analyze.py, intraday.py
+yfinance
+pandas
+numpy
+matplotlib
+# forecast.py (needs a CUDA GPU)
+torch
+chronos-forecasting
+toto-models
+timesfm @ git+https://github.com/google-research/timesfm.git

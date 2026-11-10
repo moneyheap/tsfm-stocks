@@ -1,0 +1,270 @@
+{
+  "1h": {
+    "bars": 5054,
+    "from": "2023-12-12 09:30:00-05:00",
+    "to": "2026-11-06 15:30:00-05:00",
+    "origins": 4542,
+    "models": {
+      "timesfm-3": {
+        "1": {
+          "real": {
+            "hitRate": 0.49915834981373314,
+            "hitRateCi": 0.0036088797078073667,
+            "alwaysUpRate": 0.5127525914479917,
+            "errorVsNoChange": 1.0154772487010828,
+            "correlation": -0.0096394154337736,
+            "medianAbsPredicted": 0.00039732104231826604,
+            "medianAbsReal": 0.002418241598316273
+          },
+          "randomWalk": {
+            "hitRate": 0.5005228974020255,
+            "hitRateCi": 0.0030923193984578328,
+            "alwaysUpRate": 0.5067151034786438,
+            "errorVsNoChange": 1.006735067176377,
+            "correlation": 0.0072945210625007485,
+            "medianAbsPredicted": 0.0004784652164844805,
+            "medianAbsReal": 0.004366323912942061
+          }
+        },
+        "12": {
+          "real": {
+            "hitRate": 0.49921798811341933,
+            "hitRateCi": 0.0077336304844730485,
+            "alwaysUpRate": 0.5304378225710001,
+            "errorVsNoChange": 1.036013549784654,
+            "correlation": -0.03823404606551091,
+            "medianAbsPredicted": 0.002872567352029176,
+            "medianAbsReal": 0.012534605796266252
+          },
+          "randomWalk": {
+            "hitRate": 0.49993562863238433,
+            "hitRateCi": 0.005509141402447295,
+            "alwaysUpRate": 0.526134775251968,
+            "errorVsNoChange": 1.0370508846294397,
+            "correlation": -0.0020656755712020326,
+            "medianAbsPredicted": 0.0034303742971862894,
+            "medianAbsReal": 0.015382119739125788
+          }
+        }
+      },
+      "chronos-2": {
+        "1": {
+          "real": {
+            "hitRate": 0.4997056713452659,
+            "hitRateCi": 0.003492173757221833,
+            "alwaysUpRate": 0.5127525914479917,
+            "errorVsNoChange": 1.0777937922331295,
+            "correlation": -0.0022839125195247053,
+            "medianAbsPredicted": 0.0008733704001457343,
+            "medianAbsReal": 0.002418241598316273
+          },
+          "randomWalk": {
+            "hitRate": 0.5005412446792896,
+            "hitRateCi": 0.0029018987977617494,
+            "alwaysUpRate": 0.5067151034786438,
+            "errorVsNoChange": 1.0290782334590274,
+            "correlation": 0.006052067214215333,
+            "medianAbsPredicted": 0.0009622702303842545,
+            "medianAbsReal": 0.004366323912942061
+          }
+        },
+        "12": {
+          "real": {
+            "hitRate": 0.5026817667460923,
+            "hitRateCi": 0.0077265763554373815,
+            "alwaysUpRate": 0.5304378225710001,
+            "errorVsNoChange": 1.0271302115687313,
+            "correlation": -0.01545128546404137,
+            "medianAbsPredicted": 0.0022041629154478937,
+            "medianAbsReal": 0.012534605796266252
+          },
+          "randomWalk": {
+            "hitRate": 0.5090763628338115,
+            "hitRateCi": 0.004921912699627512,
+            "alwaysUpRate": 0.526134775251968,
+            "errorVsNoChange": 1.0067709921170669,
+            "correlation": 0.02049902152389803,
+            "medianAbsPredicted": 0.0018635379984813794,
+            "medianAbsReal": 0.015382119739125788
+          }
+        }
+      },
+      "toto-2": {
+        "1": {
+          "real": {
+            "hitRate": 0.4988916176862864,
+            "hitRateCi": 0.0033690002481392,
+            "alwaysUpRate": 0.5127525914479917,
+            "errorVsNoChange": 1.0173369372794927,
+            "correlation": -0.013317331222112407,
+            "medianAbsPredicted": 0.0004129883323504835,
+            "medianAbsReal": 0.002418241598316273
+          },
+          "randomWalk": {
+            "hitRate": 0.5007247174519301,
+            "hitRateCi": 0.002767410314234458,
+            "alwaysUpRate": 0.5067151034786438,
+            "errorVsNoChange": 1.0051690455750792,
+            "correlation": 0.007185257639622106,
+            "medianAbsPredicted": 0.0004117745706548881,
+            "medianAbsReal": 0.004366323912942061
+          }
+        },
+        "12": {
+          "real": {
+            "hitRate": 0.4925434924606935,
+            "hitRateCi": 0.006451563375220325,
+            "alwaysUpRate": 0.5304378225710001,
+            "errorVsNoChange": 1.037998679383723,
+            "correlation": -0.022967351556580733,
+            "medianAbsPredicted": 0.002425844849742731,
+            "medianAbsReal": 0.012534605796266252
+          },
+          "randomWalk": {
+            "hitRate": 0.4899120871036563,
+            "hitRateCi": 0.005806927352799835,
+            "alwaysUpRate": 0.526134775251968,
+            "errorVsNoChange": 1.0138506320202272,
+            "correlation": -0.006006141629964036,
+            "medianAbsPredicted": 0.0022685197472006036,
+            "medianAbsReal": 0.015382119739125788
+          }
+        }
+      }
+    }
+  },
+  "5m": {
+    "bars": 4524,
+    "from": "2026-08-17 09:30:00-04:00",
+    "to": "2026-11-06 15:55:00-05:00",
+    "origins": 4012,
+    "models": {
+      "timesfm-3": {
+        "1": {
+          "real": {
+            "hitRate": 0.5068019368226885,
+            "hitRateCi": 0.0038857026005425484,
+            "alwaysUpRate": 0.4989731338279056,
+            "errorVsNoChange": 1.0165717131037875,
+            "correlation": 0.015008377153956172,
+            "medianAbsPredicted": 0.00010464488940853389,
+            "medianAbsReal": 0.0006483763976724566
+          },
+          "randomWalk": {
+            "hitRate": 0.5011008640744433,
+            "hitRateCi": 0.0030453961237975895,
+            "alwaysUpRate": 0.49826561980724493,
+            "errorVsNoChange": 1.0069231142478805,
+            "correlation": 0.007192596306629626,
+            "medianAbsPredicted": 0.00014918535472996375,
+            "medianAbsReal": 0.0013547720190867918
+          }
+        },
+        "12": {
+          "real": {
+            "hitRate": 0.4982882788852938,
+            "hitRateCi": 0.008202454103424073,
+            "alwaysUpRate": 0.4960131087315006,
+            "errorVsNoChange": 1.043351951891052,
+            "correlation": 0.005911782016897629,
+            "medianAbsPredicted": 0.0005907938166959115,
+            "medianAbsReal": 0.0024367512261754265
+          },
+          "randomWalk": {
+            "hitRate": 0.5004478047154878,
+            "hitRateCi": 0.007521879386280015,
+            "alwaysUpRate": 0.5006977422311089,
+            "errorVsNoChange": 1.0405055273743364,
+            "correlation": -0.010766231573778432,
+            "medianAbsPredicted": 0.0010697721640177127,
+            "medianAbsReal": 0.0047355344961644286
+          }
+        }
+      },
+      "chronos-2": {
+        "1": {
+          "real": {
+            "hitRate": 0.5014827466965661,
+            "hitRateCi": 0.0038562493496233255,
+            "alwaysUpRate": 0.4989731338279056,
+            "errorVsNoChange": 1.1201409119482573,
+            "correlation": 0.004423425242502456,
+            "medianAbsPredicted": 0.000267299021315337,
+            "medianAbsReal": 0.0006483763976724566
+          },
+          "randomWalk": {
+            "hitRate": 0.4992107012296444,
+            "hitRateCi": 0.003463035385001517,
+            "alwaysUpRate": 0.49826561980724493,
+            "errorVsNoChange": 1.028241303794104,
+            "correlation": 0.0001669224854348496,
+            "medianAbsPredicted": 0.00028858017075333864,
+            "medianAbsReal": 0.0013547720190867918
+          }
+        },
+        "12": {
+          "real": {
+            "hitRate": 0.4980012733402219,
+            "hitRateCi": 0.009084559133791912,
+            "alwaysUpRate": 0.4960131087315006,
+            "errorVsNoChange": 1.0834529975388607,
+            "correlation": 0.022048374697890043,
+            "medianAbsPredicted": 0.0007129218586933161,
+            "medianAbsReal": 0.0024367512261754265
+          },
+          "randomWalk": {
+            "hitRate": 0.5039885861867867,
+            "hitRateCi": 0.0069106378016939515,
+            "alwaysUpRate": 0.5006977422311089,
+            "errorVsNoChange": 1.0085406180782766,
+            "correlation": 0.01501263127938165,
+            "medianAbsPredicted": 0.0005591920943060491,
+            "medianAbsReal": 0.0047355344961644286
+          }
+        }
+      },
+      "toto-2": {
+        "1": {
+          "real": {
+            "hitRate": 0.5072055170679048,
+            "hitRateCi": 0.003879221088716402,
+            "alwaysUpRate": 0.4989731338279056,
+            "errorVsNoChange": 1.0098453743605762,
+            "correlation": 0.02258008546064418,
+            "medianAbsPredicted": 9.462894549461254e-05,
+            "medianAbsReal": 0.0006483763976724566
+          },
+          "randomWalk": {
+            "hitRate": 0.49998961448986373,
+            "hitRateCi": 0.0031466241654494304,
+            "alwaysUpRate": 0.49826561980724493,
+            "errorVsNoChange": 1.0050707487798167,
+            "correlation": 0.008684756701090177,
+            "medianAbsPredicted": 0.00012763893160022688,
+            "medianAbsReal": 0.0013547720190867918
+          }
+        },
+        "12": {
+          "real": {
+            "hitRate": 0.5022858216432866,
+            "hitRateCi": 0.008064340361873161,
+            "alwaysUpRate": 0.4960131087315006,
+            "errorVsNoChange": 1.019964769643486,
+            "correlation": 0.01687965795919908,
+            "medianAbsPredicted": 0.00038598852411608764,
+            "medianAbsReal": 0.0024367512261754265
+          },
+          "randomWalk": {
+            "hitRate": 0.49654253103390816,
+            "hitRateCi": 0.010318802434785257,
+            "alwaysUpRate": 0.5006977422311089,
+            "errorVsNoChange": 1.010237541811961,
+            "correlation": 0.01387018982376947,
+            "medianAbsPredicted": 0.0007104117883312,
+            "medianAbsReal": 0.0047355344961644286
+          }
+        }
+      }
+    }
+  }
+}

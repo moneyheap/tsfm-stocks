@@ -1,0 +1,411 @@
+{
+  "testWindow": [
+    "2024-11-01",
+    "2026-11-06"
+  ],
+  "origins": 504,
+  "tickers": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "TSLA",
+    "AVGO",
+    "AMD",
+    "NFLX",
+    "JPM",
+    "V",
+    "XOM",
+    "UNH",
+    "JNJ",
+    "PG",
+    "KO",
+    "WMT",
+    "HD",
+    "COST",
+    "CAT"
+  ],
+  "models": {
+    "timesfm-3": {
+      "real": {
+        "1": {
+          "hitRate": 0.5056691219068112,
+          "hitRateCi": 0.01162626853698491,
+          "alwaysUpRate": 0.5223040635603741,
+          "predictedUpShare": 0.6274801587301587,
+          "errorVsNoChange": 1.0112081213377018,
+          "correlation": -0.021900924772202228,
+          "medianAbsPredicted": 0.0013201609134763093,
+          "medianAbsReal": 0.009680576036956157,
+          "coverage80": 0.78125,
+          "coverage80VolRule": 0.8232473544973545
+        },
+        "5": {
+          "hitRate": 0.5177588794397199,
+          "hitRateCi": 0.01250435802206756,
+          "alwaysUpRate": 0.5426880106720027,
+          "predictedUpShare": 0.6534166666666666,
+          "errorVsNoChange": 1.017500512763561,
+          "correlation": 0.005569278141392111,
+          "medianAbsPredicted": 0.005101497319451309,
+          "medianAbsReal": 0.023279225725677533,
+          "coverage80": 0.76525,
+          "coverage80VolRule": 0.7990833333333334
+        },
+        "20": {
+          "hitRate": 0.5303316721086098,
+          "hitRateCi": 0.013354483502035332,
+          "alwaysUpRate": 0.5610929713009108,
+          "predictedUpShare": 0.6616838487972508,
+          "errorVsNoChange": 1.0217180301515223,
+          "correlation": 0.03261868418354391,
+          "medianAbsPredicted": 0.015125702866878532,
+          "medianAbsReal": 0.05028778104021675,
+          "coverage80": 0.7192439862542955,
+          "coverage80VolRule": 0.7890893470790378
+        }
+      },
+      "randomWalk": {
+        "1": {
+          "hitRate": 0.501901455026455,
+          "hitRateCi": 0.00859552706231921,
+          "alwaysUpRate": 0.5182705026455027,
+          "predictedUpShare": 0.49702380952380953,
+          "errorVsNoChange": 1.0066433357433615,
+          "correlation": 0.0066119648741946565,
+          "medianAbsPredicted": 0.00123024411787237,
+          "medianAbsReal": 0.011664980551699677,
+          "coverage80": 0.7915013227513228,
+          "coverage80VolRule": 0.7909226190476191
+        },
+        "5": {
+          "hitRate": 0.49583333333333335,
+          "hitRateCi": 0.00891177560559311,
+          "alwaysUpRate": 0.5425833333333333,
+          "predictedUpShare": 0.5260833333333333,
+          "errorVsNoChange": 1.0245796208133098,
+          "correlation": -0.010319275349039874,
+          "medianAbsPredicted": 0.004447933427015549,
+          "medianAbsReal": 0.025458701932760786,
+          "coverage80": 0.7805,
+          "coverage80VolRule": 0.7950833333333334
+        },
+        "20": {
+          "hitRate": 0.4950171821305842,
+          "hitRateCi": 0.008679687552880452,
+          "alwaysUpRate": 0.5963917525773196,
+          "predictedUpShare": 0.5489690721649485,
+          "errorVsNoChange": 1.0351028351481382,
+          "correlation": -0.04108065530234806,
+          "medianAbsPredicted": 0.011967045479084337,
+          "medianAbsReal": 0.05202817875348131,
+          "coverage80": 0.756872852233677,
+          "coverage80VolRule": 0.7894329896907216
+        }
+      },
+      "hitRateByTicker": {
+        "SPY": 0.5119047619047619,
+        "QQQ": 0.5575396825396826,
+        "IWM": 0.4801587301587302,
+        "AAPL": 0.4861111111111111,
+        "MSFT": 0.501984126984127,
+        "NVDA": 0.49603174603174605,
+        "AMZN": 0.5079365079365079,
+        "GOOGL": 0.5178571428571429,
+        "META": 0.5238095238095238,
+        "TSLA": 0.5277777777777778,
+        "AVGO": 0.5138888888888888,
+        "AMD": 0.49603174603174605,
+        "NFLX": 0.4742063492063492,
+        "JPM": 0.5674603174603174,
+        "V": 0.498015873015873,
+        "XOM": 0.503968253968254,
+        "UNH": 0.49603174603174605,
+        "JNJ": 0.4722222222222222,
+        "PG": 0.5416666666666666,
+        "KO": 0.47619047619047616,
+        "WMT": 0.5238095238095238,
+        "HD": 0.4781746031746032,
+        "COST": 0.4801587301587302,
+        "CAT": 0.49007936507936506
+      }
+    },
+    "chronos-2": {
+      "real": {
+        "1": {
+          "hitRate": 0.4990482496068857,
+          "hitRateCi": 0.010635202416961986,
+          "alwaysUpRate": 0.5223040635603741,
+          "predictedUpShare": 0.439484126984127,
+          "errorVsNoChange": 1.044146211625649,
+          "correlation": -0.02042316365778794,
+          "medianAbsPredicted": 0.0026126720858545838,
+          "medianAbsReal": 0.009680576036956157,
+          "coverage80": 0.8000165343915344,
+          "coverage80VolRule": 0.8232473544973545
+        },
+        "5": {
+          "hitRate": 0.5146740036685009,
+          "hitRateCi": 0.010701569289967192,
+          "alwaysUpRate": 0.5426880106720027,
+          "predictedUpShare": 0.5264166666666666,
+          "errorVsNoChange": 1.007716176412547,
+          "correlation": 0.02877890396324892,
+          "medianAbsPredicted": 0.003543070009162985,
+          "medianAbsReal": 0.023279225725677533,
+          "coverage80": 0.7579166666666667,
+          "coverage80VolRule": 0.7990833333333334
+        },
+        "20": {
+          "hitRate": 0.5318783296098986,
+          "hitRateCi": 0.012753817737389078,
+          "alwaysUpRate": 0.5610929713009108,
+          "predictedUpShare": 0.6983676975945017,
+          "errorVsNoChange": 1.0026816622122274,
+          "correlation": -0.0042176540804379735,
+          "medianAbsPredicted": 0.009068989110587178,
+          "medianAbsReal": 0.05028778104021675,
+          "coverage80": 0.7610824742268041,
+          "coverage80VolRule": 0.7890893470790378
+        }
+      },
+      "randomWalk": {
+        "1": {
+          "hitRate": 0.5052910052910053,
+          "hitRateCi": 0.008494007162354822,
+          "alwaysUpRate": 0.5182705026455027,
+          "predictedUpShare": 0.5141369047619048,
+          "errorVsNoChange": 1.0286038418037708,
+          "correlation": 0.014378737553107842,
+          "medianAbsPredicted": 0.0027210892600432746,
+          "medianAbsReal": 0.011664980551699677,
+          "coverage80": 0.8389550264550265,
+          "coverage80VolRule": 0.7909226190476191
+        },
+        "5": {
+          "hitRate": 0.5054166666666666,
+          "hitRateCi": 0.008955895978503646,
+          "alwaysUpRate": 0.5425833333333333,
+          "predictedUpShare": 0.539,
+          "errorVsNoChange": 1.011833003316828,
+          "correlation": 0.014862056099267636,
+          "medianAbsPredicted": 0.0033507999581585124,
+          "medianAbsReal": 0.025458701932760786,
+          "coverage80": 0.777,
+          "coverage80VolRule": 0.7950833333333334
+        },
+        "20": {
+          "hitRate": 0.5459621993127147,
+          "hitRateCi": 0.008288309099495067,
+          "alwaysUpRate": 0.5963917525773196,
+          "predictedUpShare": 0.7237972508591065,
+          "errorVsNoChange": 1.0003152694699957,
+          "correlation": 0.03612858990912696,
+          "medianAbsPredicted": 0.007311167281298769,
+          "medianAbsReal": 0.05202817875348131,
+          "coverage80": 0.772680412371134,
+          "coverage80VolRule": 0.7894329896907216
+        }
+      },
+      "hitRateByTicker": {
+        "SPY": 0.5099206349206349,
+        "QQQ": 0.5257936507936508,
+        "IWM": 0.498015873015873,
+        "AAPL": 0.4642857142857143,
+        "MSFT": 0.5,
+        "NVDA": 0.5119047619047619,
+        "AMZN": 0.48412698412698413,
+        "GOOGL": 0.498015873015873,
+        "META": 0.49603174603174605,
+        "TSLA": 0.48412698412698413,
+        "AVGO": 0.4861111111111111,
+        "AMD": 0.4742063492063492,
+        "NFLX": 0.5099206349206349,
+        "JPM": 0.5218253968253969,
+        "V": 0.501984126984127,
+        "XOM": 0.49603174603174605,
+        "UNH": 0.5218253968253969,
+        "JNJ": 0.48214285714285715,
+        "PG": 0.5436507936507936,
+        "KO": 0.5,
+        "WMT": 0.47619047619047616,
+        "HD": 0.45634920634920634,
+        "COST": 0.5376984126984127,
+        "CAT": 0.48412698412698413
+      }
+    },
+    "toto-2": {
+      "real": {
+        "1": {
+          "hitRate": 0.5112141024579988,
+          "hitRateCi": 0.010594847162592406,
+          "alwaysUpRate": 0.5223040635603741,
+          "predictedUpShare": 0.5513392857142857,
+          "errorVsNoChange": 1.0065813808431692,
+          "correlation": -0.012063266493161019,
+          "medianAbsPredicted": 0.0010583266234556188,
+          "medianAbsReal": 0.009680576036956157,
+          "coverage80": 0.7865410052910053,
+          "coverage80VolRule": 0.8232473544973545
+        },
+        "5": {
+          "hitRate": 0.5168417542104385,
+          "hitRateCi": 0.01073687230361357,
+          "alwaysUpRate": 0.5426880106720027,
+          "predictedUpShare": 0.5328333333333334,
+          "errorVsNoChange": 1.0028844424620593,
+          "correlation": 0.0044838140464078195,
+          "medianAbsPredicted": 0.002694043613400199,
+          "medianAbsReal": 0.023279225725677533,
+          "coverage80": 0.7835833333333333,
+          "coverage80VolRule": 0.7990833333333334
+        },
+        "20": {
+          "hitRate": 0.5091080941742567,
+          "hitRateCi": 0.010869771808792249,
+          "alwaysUpRate": 0.5610929713009108,
+          "predictedUpShare": 0.4753436426116838,
+          "errorVsNoChange": 1.0110191209638806,
+          "correlation": 0.025909027460780474,
+          "medianAbsPredicted": 0.00895124515814727,
+          "medianAbsReal": 0.05028778104021675,
+          "coverage80": 0.7877147766323024,
+          "coverage80VolRule": 0.7890893470790378
+        }
+      },
+      "randomWalk": {
+        "1": {
+          "hitRate": 0.4994212962962963,
+          "hitRateCi": 0.008799226976187593,
+          "alwaysUpRate": 0.5182705026455027,
+          "predictedUpShare": 0.3915343915343915,
+          "errorVsNoChange": 1.005465761220006,
+          "correlation": 0.020129856344553842,
+          "medianAbsPredicted": 0.0012032733013050967,
+          "medianAbsReal": 0.011664980551699677,
+          "coverage80": 0.7735615079365079,
+          "coverage80VolRule": 0.7909226190476191
+        },
+        "5": {
+          "hitRate": 0.48191666666666666,
+          "hitRateCi": 0.009260902057095254,
+          "alwaysUpRate": 0.5425833333333333,
+          "predictedUpShare": 0.3085,
+          "errorVsNoChange": 1.0139760347310376,
+          "correlation": 0.010798102106943347,
+          "medianAbsPredicted": 0.002796981695385281,
+          "medianAbsReal": 0.025458701932760786,
+          "coverage80": 0.78425,
+          "coverage80VolRule": 0.7950833333333334
+        },
+        "20": {
+          "hitRate": 0.4616838487972509,
+          "hitRateCi": 0.007897706665483936,
+          "alwaysUpRate": 0.5963917525773196,
+          "predictedUpShare": 0.2436426116838488,
+          "errorVsNoChange": 1.0283995886840227,
+          "correlation": 0.016121692668658944,
+          "medianAbsPredicted": 0.009354029136656117,
+          "medianAbsReal": 0.05202817875348131,
+          "coverage80": 0.7753436426116839,
+          "coverage80VolRule": 0.7894329896907216
+        }
+      },
+      "hitRateByTicker": {
+        "SPY": 0.5575396825396826,
+        "QQQ": 0.5257936507936508,
+        "IWM": 0.5476190476190477,
+        "AAPL": 0.5257936507936508,
+        "MSFT": 0.5119047619047619,
+        "NVDA": 0.5337301587301587,
+        "AMZN": 0.5257936507936508,
+        "GOOGL": 0.49603174603174605,
+        "META": 0.5376984126984127,
+        "TSLA": 0.5178571428571429,
+        "AVGO": 0.47023809523809523,
+        "AMD": 0.44642857142857145,
+        "NFLX": 0.5218253968253969,
+        "JPM": 0.5496031746031746,
+        "V": 0.4880952380952381,
+        "XOM": 0.5059523809523809,
+        "UNH": 0.47023809523809523,
+        "JNJ": 0.5218253968253969,
+        "PG": 0.5396825396825397,
+        "KO": 0.4880952380952381,
+        "WMT": 0.4880952380952381,
+        "HD": 0.498015873015873,
+        "COST": 0.49007936507936506,
+        "CAT": 0.498015873015873
+      }
+    }
+  },
+  "backtest": {
+    "costPerTrade": 0.0005,
+    "buyAndHold": {
+      "totalReturn": 0.5036293311350908,
+      "annualReturn": 0.22622564446152849,
+      "annualVolatility": 0.16691134434432692,
+      "sharpe": 1.3051541866228547,
+      "maxDrawdown": -0.19100857311912967
+    },
+    "timesfm-3": {
+      "totalReturn": 0.1462038420549565,
+      "annualReturn": 0.07060909862328213,
+      "annualVolatility": 0.11481916508748123,
+      "sharpe": 0.6516211453691544,
+      "maxDrawdown": -0.15598586459997654,
+      "shareOfDaysInvested": 0.6274801587301587,
+      "tradesPerStock": 117.95833333333333,
+      "withoutCosts": {
+        "totalReturn": 0.21582234271548262,
+        "annualReturn": 0.10264334338691894,
+        "annualVolatility": 0.1148004314928109,
+        "sharpe": 0.9086044176105723,
+        "maxDrawdown": -0.15315331421207945,
+        "coinSharpeBeaten": 0.058,
+        "coinSharpeMedian": 1.2500549850669072
+      }
+    },
+    "chronos-2": {
+      "totalReturn": 0.0893406833466972,
+      "annualReturn": 0.04371484771785106,
+      "annualVolatility": 0.0739688796073338,
+      "sharpe": 0.6154785453464648,
+      "maxDrawdown": -0.1429497561954569,
+      "shareOfDaysInvested": 0.439484126984127,
+      "tradesPerStock": 127.16666666666667,
+      "withoutCosts": {
+        "totalReturn": 0.1608291781394522,
+        "annualReturn": 0.077417828950056,
+        "annualVolatility": 0.07401881330883214,
+        "sharpe": 1.04457126008896,
+        "maxDrawdown": -0.13273283593805707,
+        "coinSharpeBeaten": 0.32,
+        "coinSharpeMedian": 1.1748672263287783
+      }
+    },
+    "toto-2": {
+      "totalReturn": 0.21808543926795165,
+      "annualReturn": 0.10366908050735546,
+      "annualVolatility": 0.09490328109068759,
+      "sharpe": 1.0869513987249135,
+      "maxDrawdown": -0.09744240601914789,
+      "shareOfDaysInvested": 0.5513392857142857,
+      "tradesPerStock": 140.16666666666666,
+      "withoutCosts": {
+        "totalReturn": 0.3064849621199077,
+        "annualReturn": 0.14301573135277001,
+        "annualVolatility": 0.09486172708006714,
+        "sharpe": 1.4568248443877623,
+        "maxDrawdown": -0.09119867819745164,
+        "coinSharpeBeaten": 0.831,
+        "coinSharpeMedian": 1.2241878712818137
+      }
+    }
+  }
+}
