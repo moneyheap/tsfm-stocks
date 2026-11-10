@@ -4,6 +4,10 @@ The code behind [Can Time Series Foundation Models Predict Stock Prices?](https:
 
 Models: [TimesFM 3.0](https://huggingface.co/google/timesfm-3.0-pytorch) (Google), [Chronos-2](https://huggingface.co/amazon/chronos-2) (Amazon) and [Toto 2.0 313m](https://huggingface.co/Datadog/Toto-2.0-313m) (Datadog), default settings, no fine-tuning.
 
+![Replay: SPY with each model's 20-day forecast, ten possible paths built from SPY's own past daily moves, and what really happened (dashed)](charts/replay.gif)
+
+Each model's 20-day forecast for SPY on every trading day of the test, next to ten possible paths built from SPY's own past daily moves and what really happened (dashed line). The [interactive version](https://moneyheap.ai/blog/can-ai-predict-stock-prices/) lets you pick a stock and a model.
+
 ![Growth of $10,000 traded on each model's forecasts against holding](charts/backtest.svg)
 
 ## What we found
