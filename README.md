@@ -50,4 +50,4 @@ This is research, not financial advice or a recommendation to buy or sell any se
 
 ## About
 
-Made by [Adel Zakirov](https://github.com/AdelZakirov) at [moneyheap](https://moneyheap.ai/), a market research tool that reads the news, filings and market data around each stock and reports what changed, why it may matter and how confident the analysis is. It doesn't forecast prices; this test is part of why.
+Made by [Adel Zakirov](https://github.com/AdelZakirov) at [moneyheap](https://moneyheap.ai/). MIT license.
