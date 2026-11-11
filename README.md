@@ -1,6 +1,6 @@
 # Can time series foundation models predict stock prices?
 
-Three time series foundation models, zero-shot, on two years of daily prices for 24 large US stocks and ETFs, scored against simple baselines and against random walks.
+The code behind [Can Time Series Foundation Models Predict Stock Prices?](https://moneyheap.ai/blog/can-ai-predict-stock-prices/) on the moneyheap blog: three time series foundation models, zero-shot, on two years of daily prices for 24 large US stocks and ETFs, scored against simple baselines and against random walks.
 
 Models: [TimesFM 3.0](https://huggingface.co/google/timesfm-3.0-pytorch) (Google), [Chronos-2](https://huggingface.co/amazon/chronos-2) (Amazon) and [Toto 2.0 313m](https://huggingface.co/Datadog/Toto-2.0-313m) (Datadog), default settings, no fine-tuning.
 
